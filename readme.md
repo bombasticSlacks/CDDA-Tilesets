@@ -4,13 +4,13 @@
 
 <p align="center">
     <a href="https://discord.gg/kAXNZuy">
-        <img src="https://img.shields.io/discord/552510581161066497?logo=discord"
+        <img src="https://img.shields.io/discord/552510581161066497?style=flat-square&logo=discord"
             alt="chat on Discord"></a>
     <a href="https://github.com/I-am-Erk/CDDA-Tilesets/releases/latest">
-        <img src="https://img.shields.io/github/v/release/I-am-Erk/CDDA-Tilesets"
+        <img src="https://img.shields.io/github/v/release/I-am-Erk/CDDA-Tilesets?style=flat-square"
             alt="latest release"></a>
     <a href="cdda-tilesets.github.io">
-        <img src="https://img.shields.io/badge/documentation-read-green"
+        <img src="https://img.shields.io/badge/documentation-read-green?style=flat-square"
             alt="documentation"></a>
 </p>
         
@@ -45,7 +45,7 @@ We have rules for sprites these days. Not because it's important to keep the til
 - Item tiles should be as close to scale as they can be while still recognizable. When in doubt, err on the side of larger, but avoid filling an entire 32x32 tile with a single nail or it would look like a nail as large as a survivor.
 - Even for single items, putting multiple items into the icon could give it more recognizability without making it look comically huge.
 - Containers, like jars or bottles, should be drawn empty as the game will use the same tile no matter the actual content of the item.
-- 100% black underline; this helps to identify an item in the game world.
+- 100% black underline without shadow on the floor so that they are not mistaken for furniture; this helps to identify an item in the game world.
 
 ### Overlay
 - 32x64 tile base; use these as reference (base male and base female sprites): 
@@ -68,6 +68,15 @@ We have rules for sprites these days. Not because it's important to keep the til
 - Give files a name based on the JSON ID they suit, eg `t_floor`.
 - If multiple files apply to that ID, make a subfolder eg `terrain/t_floor/` for all the views.
 - For the moment, there isn't a clear naming convention after that. Working on it.
+
+## Donations
+
+If you feel generous enough, you might consider donating to the artist. 
+
+| Artist | Link |
+|-|-|
+| I-am-Erk | N/a |
+| barsoosayque | <a href="https://liberapay.com/barsoosayque/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a> |
 
 ## Licensing
 Cataclysm:Dark Days Ahead and the Ultimate Cataclysm tileset is the result of contributions from volunteers under the Creative Commons Attribution ShareAlike 3.0 license. The code and content of the game is free to use, modify, and redistribute for any purpose whatsoever. See [Creative Commons](http://creativecommons.org/licenses/by-sa/3.0/) for details. Some code distributed with the project is not part of the project and is released under different software licenses, the files covered by different software licenses have their own license notices.
